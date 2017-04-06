@@ -6,8 +6,21 @@ public class ClientAssociate extends Client {
 		super(name, cpf, age, gender);
 		this.associateNum = associateNum;
 	}
-	
 
+	public String getAssociateNum() {
+		return associateNum;
+	}
+
+	public void setAssociateNum(String associateNum) {
+		this.associateNum = associateNum;
+	}
+
+	@Override
+	public String toString() {
+		return "ClientAssociate [associateNum=" + associateNum + ", toString()=" + super.toString() + "]";
+	}
+	
+	
 	 
 	
 		
