@@ -42,7 +42,7 @@ import persistence.*;
 		public int maleClients() {
 			int num = 0;
 			for (int i = 0; i < Client.size(); i++) {
-				if (Client.get(i).getGender()) {
+				if (Client.get(i).getGender()=='M') {
 					num++;
 				}
 			}
@@ -52,7 +52,7 @@ import persistence.*;
 		public int girlClients() {
 			int num = 0;
 			for (int i = 0; i < Client.size(); i++) {
-				if (Client.get(i).getGender()) {
+				if (Client.get(i).getGender()=='F') {
 					num++;
 				}
 			}
