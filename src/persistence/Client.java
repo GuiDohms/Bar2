@@ -1,3 +1,4 @@
+package persistence;
    
 public class Client {
 	private String name, cpf;

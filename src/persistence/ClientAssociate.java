@@ -1,3 +1,4 @@
+package persistence;
  
 public class ClientAssociate extends Client {
 	private String associateNum;
